@@ -1,6 +1,7 @@
 package majority_element
 
 func majorityElement(nums []int) int {
+
 	m := 0
 	val := 0
 	counts := map[int]int{}
